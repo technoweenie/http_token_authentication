@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'NAME'
-  s.version           = '0.0'
-  s.date              = '2010-01-01'
-  s.rubyforge_project = 'NAME'
+  s.name              = 'http_token_authentication'
+  s.version           = '0.1.0'
+  s.date              = '2010-04-27'
+  s.rubyforge_project = 'http_token_authentication'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -37,7 +37,14 @@ Gem::Specification.new do |s|
   ## contents of your Git repository via the gemspec task. DO NOT REMOVE
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
-  s.files = %w[]
+  s.files = %w[
+    LICENSE
+    README.md
+    Rakefile
+    http_token_authentication.gemspec
+    lib/http_token_authentication.rb
+    test/http_token_authentication_test.rb
+  ]
   # = MANIFEST =
 
   ## Test files will be grabbed from the file list. Make sure the path glob
